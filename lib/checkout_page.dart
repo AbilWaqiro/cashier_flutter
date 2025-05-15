@@ -9,8 +9,8 @@ class CheckoutPage extends StatefulWidget {
 
 class _CheckoutPageState extends State<CheckoutPage> {
   final List<Map<String, dynamic>> items = [
-    {'name': 'Permen', 'qty': 4, 'price': 1000},
-    {'name': 'Teh', 'qty': 2, 'price': 2500},
+    {'name': 'Pulpen', 'qty': 4, 'price': 1000},
+    {'name': 'Penghapus', 'qty': 2, 'price': 2500},
     {'name': 'Pensil', 'qty': 1, 'price': 500},
   ];
 
@@ -29,9 +29,9 @@ class _CheckoutPageState extends State<CheckoutPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text('PT. Suka-Suka', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-              const Text('Kp. Cikereteg'),
-              const Text('Telp: 085891434295'),
+              const Text('PT. Cashier', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              const Text('Kp. Cibalok'),
+              const Text('Telp: 088299083456'),
               const SizedBox(height: 16),
               const Divider(),
               const Align(
